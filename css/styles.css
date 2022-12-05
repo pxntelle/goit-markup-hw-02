@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  font-family: font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  a {
+    text-decoration: none;
+  }
+
+  .page-header {
+  }
+
+  .logo {
+  }
+
+
+  .site-nav {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+  .order-banner {
+    position: absolute;
+    width: 1440px;
+    height: 603px;
+    left: 0px;
+    top: 72px;
+    background: #2e2f42;
+  }
+}
