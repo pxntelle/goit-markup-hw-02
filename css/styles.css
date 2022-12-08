@@ -9,17 +9,35 @@ body {
     color: #2E2F42;
   }
 
-  a {
-    text-decoration: none;
-    color: #2E2F42;
+  h3 {
+
   }
 
-  .page-header {
+  p {
+    
   }
 
-  .logo . {
+  .link {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
   }
 
+  ul {
+    list-style: none;
+  }
+
+  /* .page-header {
+  } */
+
+  /* .logo . {
+  } */
+
+  .logo-accent {
+    color: #4D5AE5;
+  }
 
   .site-nav {
     font-family: "Roboto";
@@ -29,6 +47,10 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+  }
+
+  .site-nav link:hover, .site-nav link:focus {
+    color:  #4D5AE5;
   }
 
   .order-banner {
