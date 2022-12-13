@@ -1,64 +1,110 @@
 body {
-  background-color: white;
-  font-family: font-family: "Montserrat", sans-serif;
-  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  color: #2e2f42;
   font-family: "Roboto", sans-serif;
 
   a {
     text-decoration: none;
-    color: #2E2F42;
-  }
-
-  h3 {
-
-  }
-
-  p {
-    
-  }
-
-  .link {
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
   }
 
   ul {
     list-style: none;
   }
 
+  /* .link {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  } */
+
+  .link:hover,
+  .link:focus {
+    color: #4d5ae5;
+  }
+
   /* .page-header {
   } */
 
-  /* .logo . {
-  } */
-
-  .logo-accent {
-    color: #4D5AE5;
+  .logo {
+    font-family: "Railway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: ;
+    color: #4d5ae5;
   }
 
-  .site-nav {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+  .logo-accent {
     color: #2e2f42;
   }
 
-  .site-nav link:hover, .site-nav link:focus {
-    color:  #4D5AE5;
+  .header-link {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    text-decoration: none;
   }
 
-  .order-banner {
-    position: absolute;
-    width: 1440px;
-    height: 603px;
-    left: 0px;
-    top: 72px;
+  .header-contact {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+  }
+
+  .site-nav link:hover,
+  .site-nav link:focus {
+    color: #4d5ae5;
+  }
+
+  /* .hero {
     background: #2e2f42;
+  } */
+
+  .hero-header {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1;
+    color: #fff;
+  }
+
+  .hero-button-text {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #fff;
+  }
+
+  .features-header .team-name {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .features-description .team-position {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+  }
+
+  .section-header {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  .footer-text {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e7e9fc;
   }
 }
