@@ -21,18 +21,6 @@ ul {
     text-decoration: none;
   } */
 
-.link:hover,
-.link:focus {
-  color: #434455;
-}
-
-.link:active {
-  color: #4d5ae5;
-}
-
-/* .page-header {
-  } */
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -54,26 +42,26 @@ ul {
   text-decoration: none;
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: #434455;
+}
+
+.header-link:active {
+  color: #4d5ae5;
+}
+
 .header-contact {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
-  color: inherit;
-}
-
-/* .site-nav link:hover,
-.site-nav link:focus {
   color: #434455;
-} */
-
-/* .site-nav link:active {
-  color: #4d5ae5;
 }
 
-.header-contact link:hover,
-.header-contact link:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: #4d5ae5;
-} */
+}
 
 .hero {
   background: #2e2f42;
@@ -100,7 +88,7 @@ ul {
 
 /* .hero-button:hover,
 .button:focus {
-no changes?
+ніяких змін?
 } */
 
 .hero-button:active {
