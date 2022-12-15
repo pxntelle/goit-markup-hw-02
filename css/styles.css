@@ -23,6 +23,10 @@ ul {
 
 .link:hover,
 .link:focus {
+  color: #434455;
+}
+
+.link:active {
   color: #4d5ae5;
 }
 
@@ -54,22 +58,26 @@ ul {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: inherit;
 }
 
-.site-nav link:hover,
+/* .site-nav link:hover,
 .site-nav link:focus {
+  color: #434455;
+} */
+
+/* .site-nav link:active {
   color: #4d5ae5;
 }
 
 .header-contact link:hover,
 .header-contact link:focus {
   color: #4d5ae5;
-}
+} */
 
-/* .hero {
-    background: #2e2f42;
-  } */
+.hero {
+  background: #2e2f42;
+}
 
 .hero-header {
   font-family: inherit;
@@ -79,12 +87,24 @@ ul {
   color: #fff;
 }
 
-.hero-button-text {
+.hero-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  padding: 16px 32px;
+}
+
+/* .hero-button:hover,
+.button:focus {
+no changes?
+} */
+
+.hero-button:active {
+  background-color: #404bbf;
 }
 
 .features-header .team-name .project-header {
@@ -108,6 +128,14 @@ ul {
   line-height: 1.1;
 }
 
+.footer {
+  background: #2e2f42;
+}
+
+.footer-logo-accent {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-family: inherit;
   font-size: 16px;
@@ -121,9 +149,11 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   color: #4d5ae5;
+  background-color: #f4f4fd;
+  padding: 12px 24px;
 }
 
-.menu-button .link:hover,
-.menu-button link:focus {
+.menu-button:active {
   color: #fff;
+  background-color: #4d5ae5;
 }
