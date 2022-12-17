@@ -113,14 +113,18 @@ ul {
 
 /* нижче - стилі для всіх класів заголовків */
 
-.features-header .team-name .project-header {
+.features-header,
+.team-name,
+.project-header {
   font-family: inherit;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.features-description .team-position .project-description {
+.features-description,
+.team-position,
+.project-description {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
